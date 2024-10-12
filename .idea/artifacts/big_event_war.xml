@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="big_event:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>big_event</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="big_event.war">
+      <element id="artifact" artifact-name="big_event:war exploded" />
+    </root>
+  </artifact>
+</component>

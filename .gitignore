@@ -24,6 +24,7 @@ hs_err_pid*
 replay_pid*
 
 
+# 忽略配置文件和编译后文件
 /.idea/
 /.mvn/
 /target/
